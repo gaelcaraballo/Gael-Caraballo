@@ -1,0 +1,38 @@
+.navButtons {
+    /* Add your styles for nav buttons here */
+}
+
+.cardHolders {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.cardHolders img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.cardHolders::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.cardHolders:hover::after {
+    opacity: 1;
+}
+
+.cardHolders:hover img {
+    transform: scale(1.2);
+}
