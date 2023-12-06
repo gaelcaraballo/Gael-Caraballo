@@ -30,7 +30,7 @@
                    onclick="showImage('public/assets/design/centellesBalenya.png')">
                     <div class="cardHolders">
                         <img alt="First Card" class="img-fluid" loading="lazy"
-                             src="public/assets/design/centellesBalenya.png">
+                             src="{{route('assets/design/centellesBalenya.png')}}">
                     </div>
                 </a>
             </div>
