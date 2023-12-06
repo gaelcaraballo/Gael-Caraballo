@@ -38,7 +38,7 @@
                 <a class="text-center" data-bs-target="#imageModal" data-bs-toggle="modal" href="#"
                    onclick="showImage('public/assets/design/Coro.png')">
                     <div class="cardHolders">
-                        <img alt="First Card" class="img-fluid" loading="lazy" src="public/assets/design/Coro.png">
+                        <img alt="First Card" class="img-fluid" loading="lazy" src="{{route('assets/design/Coro.png')}}">
                     </div>
                 </a>
             </div>
